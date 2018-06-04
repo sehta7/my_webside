@@ -1,0 +1,331 @@
+body{
+	margin: 0px;
+	font-family: "Bookman Old Style";
+}
+
+#container{
+	height: 1160px;
+	width: 1100px;
+	margin: 0 auto;
+	background-color: rgb(246, 213, 213, 0.2);
+}
+
+.header{
+	width: 40%;
+	float: right;
+}
+
+nav{
+	height: 60px;
+	float: right;
+	display: inline;
+	margin-top: 30px;
+	padding: 10px;
+	background-color: rgb(172, 57, 115, 0.75);
+	border-radius: 40px 0px 0px 40px;
+	padding-top: 30px;
+}
+
+.navbar{
+	color: white;
+	font-size: 25px;
+	margin-left: 25px;
+	text-decoration: none;
+	border: 3px solid white;
+	border-radius: 50px 0px 0px 50px;
+	padding: 3px;	
+}
+
+.navbar:hover{
+	color: #ac3973;
+	background-color: white;
+	font-family: "Book Antiqua";
+}
+
+h1{
+	font-size: 50px;
+	clear: both;
+	margin: 50px;
+
+}
+
+#head{
+	width: 1100px;
+	height: 160px;
+	background-image: url("../images/background.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+}
+
+#text{
+	float: left;
+	width: 50%;
+	height: 160px;
+}
+
+#text h5{
+	margin-top: -70px;
+	text-align: center;
+}
+
+#cv{
+	width: 100%;
+	position: relative;
+	top: 160px;
+	background-color: rgb(172, 57, 115, 0.2);
+	height: 1000px;
+}
+
+#main{
+	porition: relative;
+	height: 200px;
+}
+
+#photo{
+	float: left;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 30%;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+h2{
+	text-align: center;
+	clear: both;
+	padding: 15px;
+	width: 97%;
+	float: right;
+	position: relative;
+	padding-left: 25px;
+	
+}
+
+h3{
+	font-size: 10px;
+	text-align: center;
+}
+
+#data{
+	display: inline;
+}
+
+#next{
+	float: right;
+	width: 85%;
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    border: 3px dashed black;
+	border-radius: 20%;
+	margin: 10px;
+}
+
+.fa-adn{
+	font-size: 18px;
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+#important{
+	width: 100%;
+	position: absolute;
+    top: 130px;
+    right: 0px;
+    text-align: center;
+    font-size: 18px;
+}
+
+span{
+	position: absolute;
+	top: 80px;
+	right: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+span h3{
+	display: inline-block;
+	padding-left: 100px;
+	font-size: 13px;
+	margin-right: 50px;
+}
+
+#edu{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: left;
+	height: 200px;
+	margin-top: 50px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+.title{
+	margin: 10px;
+	padding: 5px;
+	background-color: rgb(172, 57, 115, 0.75);
+	border-radius: 20%;
+	color: white;
+}
+
+.dates{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.info{
+	width: 70%;
+	float: right;
+}
+
+#cour{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: right;
+	height: 200px;
+	margin-top: 50px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+#lan{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: left;
+	height: 200px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+.language{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.level{
+	width: 70%;
+	float: right;
+}
+
+.level p{
+	width: 75%;
+	text-align: right;
+	margin: -13px;
+}
+
+.lv{
+	height: 15px;
+	width: 70%;
+	border: 2px solid black;
+	background-color: rgb(128, 128, 128, 0.3);
+	border-radius: 18%;
+}
+
+.com{
+	background-color: black;
+	border-radius: 10%;
+	width: 75%;
+	height: 15px;
+}
+
+.bas{
+	background-color: black;
+	border-radius: 10%;
+	width: 25%;
+	height: 15px;
+}
+
+#pr_lan{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: right;
+	height: 200px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+.list{
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+ul{
+	margin: 1px;
+}
+
+#ski{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: left;
+	height: 200px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+#ski ol{
+	list-style-type: none;
+}
+
+#hob{
+	border: 3px solid black;
+	margin: 20px;
+	width: 45%;
+	float: right;
+	height: 200px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+#hob ul{
+	list-style-type: none;
+}
+
+#hob ul li:before{
+	content: "-";
+}
+
+#footer{
+	height: 150px;
+	background-color: rgb(128, 128, 128, 0.5);
+	padding: 20px;
+	margin-top: 150px;
+	border: 6px solid black;
+}
+
+#contact{
+	width: 35%;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+#links{
+	width: 60%;
+	float: right;
+	margin-right: 20px;
+	font-size: 23px;
+}
+
+#links a{
+	text-decoration: none;
+	display: block;
+	padding: 15px;
+	padding-bottom: 5px;
+	border-bottom: 3px dashed black;
+	width: 30%;
+	color: black;
+}
+
+#links a:hover{
+	color: white;
+	background-color: black;
+	border-radius: 20%;
+	border: 3px solid black;
+	font-size: 23px;
+}
