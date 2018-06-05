@@ -1,14 +1,22 @@
-function hide(){
-	var toHide = document.querySelector("des");
-	var curs = document.querySelector("tit");
-	
-	curs.style.cursor = 'pointer';
-	curs.onclick = function(){
-		if (toHide.style.display === "none") {
-			toHide.style.display = "block";
+function showPhoto(){
+	var see = document.getElementById('photo');
+		
+	see.onclick = function(){
+		var photo = document.getElementById('quad');
+		if(photo.style.display === 'none'){
+			photo.style.display = 'block';
 		}
-		else{
-			toHide.style.display = "none";
-		}
-	};	
+	};
 };
+
+function hide(){
+	
+	if (this.event.currentTarget.nextElementSibling.hidden === true) {
+		this.event.currentTarget.nextElementSibling.hidden = false;
+	}
+	else{
+		this.event.currentTarget.nextElementSibling.hidden = true;
+	}
+
+};
+

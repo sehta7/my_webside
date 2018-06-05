@@ -72,21 +72,62 @@ h1{
 }
 
 #programs{
-	border: 3px solid black;
-	height: 1000px;
+	height: 1100px;
 }
 
 .prog{
-	border: 3px solid yellow;
 	margin: 20px;
+	border-bottom: 3px dashed black;
+	padding-bottom: 25px;
+	width: 70%;
 }
 
 .tit{
-	border: 3px solid red;
+	background-color: rgb(172, 57, 115, 0.75);
+	border-radius: 20%;
+	color: white;
 	margin: 5px;
+	padding: 10px;
+	width: 50%;
+	cursor: pointer;
 }
 
 .des{
-	border: 3px solid blue;
+	border: 3px solid black;
 	margin: 5px;
+	padding: 5px;
+	background-color: rgb(246, 213, 213, 0.5);
+}
+
+#photo{
+	font-size: 15px;
+	margin-left: 320px;
+}
+
+#photo:hover{
+	font-size: 20px;
+	color: purple;
+	cursor: pointer;
+}
+
+#quad{
+	size: 100px;
+	border-radius: 10%;
+	width: 20%;
+	height: 20%;
+	display: none;
+}
+
+#quad:hover{
+	border: 2px solid black;
+	opacity: 0.85;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: purple;
 }
